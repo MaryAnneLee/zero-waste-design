@@ -8,4 +8,18 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
+    color: #2F2C39;
+}
+
+/* headings and logo*/
+
+h1, h2 {
+    font-family: Roboto Slab, serif;
+    letter-spacing: 2px;
+    color: #2F2C39;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
