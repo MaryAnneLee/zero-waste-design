@@ -93,22 +93,25 @@ h1, h2 {
 
 #intro-text {
     text-align: center;
-    padding-top: 30px;
+    margin: 30px 0;
 }
 
 #material-info {
-    height: 600px; /*might have to change depending on best image height*/
+    height: 1900px; /*might have to change depending on best image height*/
 }
 
 #left-image {
     padding-top: 20px;
     width: 50%;
+    height: 950px;
     float: left;
+    background-color: #fcf4eb;
 }
 
 #right-text {
     padding-top: 20px;
     width: 50%;
+    height: 950px;
     float: right;
     background-color: #2F2C39;
 }
@@ -116,12 +119,15 @@ h1, h2 {
 #right-image {
     padding-top: 20px;
     width: 50%;
+    height: 950px;
     float: right;
+    background-color: #2F2C39;
 }
 
 #left-text {
     padding-top: 20px;
     width: 50%;
+    height: 950px;
     float: left;
     background-color: #fcf4eb;
 }
@@ -138,3 +144,19 @@ h1, h2 {
 #wool-left-text {
     margin: 20px;
 }
+
+.image-container {
+    height: 950px;
+    width: 950px;
+}
+
+#linen-left-image {
+    background: url(../images/zero-waste-design-linen-bag.jpg) no-repeat;
+    height: 100%;
+}
+
+#wool-right-image {
+    background: url(../images/zero-waste-design-wool-cushion-cover.jpg) no-repeat;
+    height: 100%
+}
+
