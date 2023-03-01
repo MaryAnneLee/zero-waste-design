@@ -101,27 +101,40 @@ h1, h2 {
 }
 
 #left-image {
-    padding-top: 30px;
+    padding-top: 20px;
     width: 50%;
     float: left;
 }
 
 #right-text {
-    padding-top: 30px;
+    padding-top: 20px;
     width: 50%;
     float: right;
     background-color: #2F2C39;
 }
 
 #right-image {
-    padding-top: 30px;
+    padding-top: 20px;
     width: 50%;
     float: right;
 }
 
 #left-text {
-    padding-top: 30px;
+    padding-top: 20px;
     width: 50%;
     float: left;
     background-color: #fcf4eb;
+}
+
+#linen-right-text h2 {
+    color:#fcf4eb;
+}
+
+#linen-right-text {
+    color:#fcf4eb;
+    margin: 20px;
+}
+
+#wool-left-text {
+    margin: 20px;
 }
