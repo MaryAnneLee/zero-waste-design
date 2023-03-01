@@ -22,6 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 20px;
 }
 
 /* navigation links*/
@@ -86,4 +87,41 @@ h1, h2 {
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+
+/* main section*/
+
+#intro-text {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#material-info {
+    height: 600px; /*might have to change depending on best image height*/
+}
+
+#left-image {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-text {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    background-color: #2F2C39;
+}
+
+#right-image {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+#left-text {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    background-color: #fcf4eb;
 }
