@@ -57,3 +57,33 @@ h1, h2 {
     background-color: #fcf4eb;
     padding: 4px;
 }
+
+/* hero image and text*/
+
+#hero {
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image-zero-waste-design.jpg) no-repeat center center;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fcf4eb;
+}
+
+#cover-text {
+    font-size: 130%;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(47, 44, 57, .8);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
