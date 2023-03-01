@@ -50,4 +50,10 @@ h1, h2 {
 #menu a:hover {
     background-color: #fcf4eb;
     padding: 4px;
+    
+}
+
+.active {
+    background-color: #fcf4eb;
+    padding: 4px;
 }
