@@ -220,16 +220,29 @@ footer {
  /* Workshop page*/
 
  #workshop-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url(../images/zero-waste-design-workshops1.jpg) no-repeat center center;
+    background-color: #fcf4eb;
+ }
+
+ #workshop-heading h1 {
+    background-color: #fcf4eb;
+    text-align: center;
+    font-size: 200%;
  }
 
  #workshop-dates {
     background-color: #fcf4eb;
+    height: 300px;
  }
 
- #workshop-dates h1 {
+ #workshop-dates div {
+    width: 25%;
+    height: 200px;
+    float: left;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px 0px;
  }
+
+
