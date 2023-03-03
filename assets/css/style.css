@@ -174,7 +174,7 @@ h1, h2 {
 
 .button {
     color: #262329;
-    background-color: #9C6A52;
+    background-color: #fcf4eb;
     border: none;
     padding: 15px 30px;
     text-align: center;
@@ -215,4 +215,21 @@ footer {
 
  #portfolio > img {
    width: 100%;
+ }
+
+ /* Workshop page*/
+
+ #workshop-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/zero-waste-design-workshops1.jpg) no-repeat center center;
+ }
+
+ #workshop-dates {
+    background-color: #fcf4eb;
+ }
+
+ #workshop-dates h1 {
+    text-align: center;
+    margin-bottom: 20px;
  }
