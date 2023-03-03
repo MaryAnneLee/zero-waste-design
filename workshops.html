@@ -59,7 +59,32 @@
             <h3>ABF-house, Eskilstuna</h3>
         </div>
     </section>
-    <section>sign up form</section>
+    <section id="form-section">
+        <form method="post" action="" class="signup-form">
+            <h2>Sign up for a workshop!</h2>
+            <label for="fname">First name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+            <label for="lname">Last name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+            <label for="email">Email address</label>
+            <input class="text-input" id="email" name="email_address" type="email" required>
+
+            <label for="march25">March 25</label>
+            <input type="radio" id="march25" name="date-choice" value="march25" required>
+
+            <label for="april30">April 30</label>
+            <input type="radio" id="april30" name="date-choice" value="april30">
+
+            <label for="may27">May 27</label>
+            <input type="radio" id="may27" name="date-choice" value="may27">
+
+            <label for="june25">June 25</label>
+            <input type="radio" id="june25" name="date-choice" value="june25">
+
+            <input class="submit-button" type="submit" value="Submit">
+        </form>
+    
+    </section>
     <footer>
         <ul class="social-icons">
             <li>
