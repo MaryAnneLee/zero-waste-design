@@ -278,4 +278,32 @@ footer {
     color: #fcf4eb;
  }
 
+ /* media queries */
+ @media screen and (max-width: 1300px) {
+    #material-info-image {
+        width: 65%;
+        height: 1000px;
+        margin: 0 auto;
+    }
 
+    #material-info-text {
+        width: 65%;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    #left-text, #right-text {
+        width: 100%;
+        float: left;
+        height: 300px;
+        padding: 0;
+        margin-left: 100px;
+    }
+
+    #left-image, #right-image {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 10px 0;
+    }
+ }
