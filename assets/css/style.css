@@ -280,7 +280,9 @@ footer {
     color: #fcf4eb;
  }
 
+
  /* media queries */
+
  @media screen and (max-width: 1300px) {
     #material-info-image {
         width: 65%;
@@ -414,6 +416,9 @@ footer {
             height: auto;
             float: none;
          }
+
+         #portfolio {
+            column-count: 2;
 
          .signup-form {
             position: relative;
