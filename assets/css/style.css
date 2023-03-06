@@ -313,8 +313,6 @@ footer {
 
  @media screen and (max-width: 950px) {
     #menu {
-    /*clear: left;*/
-    /*float: left;*/
     margin-left: 30px;
     margin-bottom: 20px;
     line-height: 25px;
@@ -343,11 +341,22 @@ footer {
         margin: 0 auto;
     }
 
+
+
+     .signup-form {
+        position: relative;
+        left: 20%;
+        padding: 40px;
+     }
+
+     footer {
+        height: 100px;
+     }
+
 }   
 
 @media screen and (max-width: 760px) {
 
-    
     #cover-text {
         font-size: 100%;
         letter-spacing: 1px;
@@ -393,6 +402,23 @@ footer {
          
          #wool-right-text {
              width: 100%;
+         }
+
+
+         #workshop-dates {
+            height: 600px;
+         }
+
+         #workshop-dates div {
+            width: 100%;
+            height: auto;
+            float: none;
+         }
+
+         .signup-form {
+            position: relative;
+            left: 0px;
+            padding: 40px;
          }
 
          footer {
