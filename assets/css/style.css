@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
 }
 body {
     font-family: Roboto, sans-serif;
@@ -23,6 +24,7 @@ h1, h2 {
     float: left;
     font-size: 300%;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 /* navigation links*/
@@ -319,6 +321,7 @@ footer {
     }
 
     #logo {
+        float: none;
         font-size: 200%;
     }
 
@@ -344,6 +347,7 @@ footer {
 
 @media screen and (max-width: 760px) {
 
+    
     #cover-text {
         font-size: 100%;
         letter-spacing: 1px;
@@ -357,6 +361,10 @@ footer {
         margin: 0 auto;
     }
 
+    #linen-left-image {
+        width: 100%;
+    }
+
     #material-info-image {
             width: 90%;
             height: 1000px;
@@ -365,21 +373,32 @@ footer {
     
         #material-info-text {
             width: 90%;
-            height: 1000px;
+            height: 600px;
             margin: 0 auto;
         }
 
         #left-text {
-            width: 90%;
-            height: 500Px;
+            height: 300Px;
             margin: 0 auto;
         }
         
         #right-text {
-            width: 90%;
-            height: 500px;
+            height: 300px;
             margin: 0 auto;
         }
+
+        #linen-left-text {
+            width: 100%;
+         }
+         
+         #wool-right-text {
+             width: 100%;
+         }
+
+         footer {
+            height: 100px;
+         }
+
 
 }
 
