@@ -2,11 +2,11 @@
 
 The Zero waste design website is a responsiv website with information about creativity with fabric scraps and workshops. 
 
-! Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+![responsive webiste](assets/images/readme-images/zero-waste-design-responsive.png)
 
-! Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+[View Zero waste design on Github pages](https://maryannelee.github.io/zero-waste-design/index.html)
 
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
+
 
 ---
 
