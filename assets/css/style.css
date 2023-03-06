@@ -322,11 +322,16 @@ footer {
         font-size: 200%;
     }
 
+    .image-container {
+        margin: 0 auto;
+    }
 
-#material-info-image {
+
+    #material-info-image {
         width: 90%;
         height: 1000px;
         margin: 0 auto;
+
     }
 
     #material-info-text {
@@ -335,6 +340,50 @@ footer {
         margin: 0 auto;
     }
 
+}   
+
+@media screen and (max-width: 760px) {
+
+    #cover-text {
+        font-size: 100%;
+        letter-spacing: 1px;
+        width: 90%;
+        height: 150px;
+        padding-top: 20px;
+        left: 5px;
+    }
+    
+    .image-container {
+        margin: 0 auto;
+    }
+
+    #material-info-image {
+            width: 90%;
+            height: 1000px;
+            margin: 0 auto;
+        }
+    
+        #material-info-text {
+            width: 90%;
+            height: 1000px;
+            margin: 0 auto;
+        }
+
+        #left-text {
+            width: 90%;
+            height: 500Px;
+            margin: 0 auto;
+        }
+        
+        #right-text {
+            width: 90%;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+}
+
+
+        
 
     
-}
