@@ -46,23 +46,38 @@ The Zero waste design website is a responsiv website with information about crea
 
 ---
 
-## User Experience (UX)
+## User experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+👩🏻‍💻 Initial information
+Zero waste design wants to inspire people to use fabric scraps in their creativity.  Most fabric scraps are often thrown away but could be used to create useful and beautiful items instead. Workshops are arranged once a month with a lot of fabric scraps to choose from and a chance to get inspired by each other.  
 
-### User Stories
+### User stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+#### User goals
+Make visitors find out what zero waste design is and get inspired. 
+Make visitors know more about natural fabrics.
+Make visitors find out how and when to take part in workshops.
+
+#### First time visitor goals
+Know more about zero waste design.
+Get inspired by the portfolio photos. 
+Sign up for workshops.
+Find their social media profiles.
+(To be able to contact with questions on upcoming events.)
+
+#### Returning visitor goals
+Find up to date workshops to attend.
+(To be able to contact with questions on upcoming events.)
+
 
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
+👩🏻‍💻 This is my first project and it was made with a little bit of lack of time.The design has been influenced by the “Love running”-project at Code Institute. I wanted to create a clean looking website with colors that didn't stand out and blend in well with the inspirational images. My aim was also a good ground to work with in upcoming changes and improvements. 
 
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+![color scheme]("assets/images/readme-images/color-scheme-zero-waste-design")
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
 ### Typography
 
