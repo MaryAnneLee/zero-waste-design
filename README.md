@@ -48,7 +48,6 @@ The Zero waste design website is a responsive website with information about cre
 
 ## User experience (UX)
 
-👩🏻‍💻 Initial information
 Zero waste design wants to inspire people to use fabric scraps in their creativity.  Most fabric scraps are often thrown away but could be used to create useful and beautiful items instead. Workshops are arranged once a month with a lot of fabric scraps to choose from and a chance to get inspired by each other.  
 
 ### User stories
@@ -70,7 +69,7 @@ Find up to date workshops to sign up for.
 
 ## Design
 
-👩🏻‍💻 This is my first project and it was made with a little bit of lack of time. The design has been influenced by the “Love running”-project at Code Institute. I wanted to create a clean looking website with colors that didn't stand out and blend in well with the inspirational images. My aim was also a solid ground to work with in upcoming changes and improvements. 
+This is my first project and it was made with a lack of time. The design has been influenced by the “Love running”-project at Code Institute. I wanted to create a clean looking website with colors that didn't stand out and blend in well with the inspirational images. My aim was also a solid ground to work with in upcoming changes and improvements. Mostly improvements in the design because it's a bit simple now.
 
 ### Colour Scheme
 
