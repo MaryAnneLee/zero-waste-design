@@ -284,6 +284,16 @@ footer {
     color: #fcf4eb;
 }
 
+#thankyou {
+    background-color: #fcf4eb;
+    height: 400px; 
+    text-align: center;
+}
+
+#thankyou-text {
+    padding: 60px;
+}
+
 
 /* media queries */
 
