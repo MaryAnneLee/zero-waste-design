@@ -62,12 +62,10 @@ Make visitors find out how and when to take part in workshops.
 Know more about zero waste design.
 Get inspired by the portfolio photos. 
 Sign up for workshops.
-Find their social media profiles.
-(To be able to contact with questions on upcoming events.)
+Find the social media links.
 
 #### Returning visitor goals
-Find up to date workshops to attend.
-(To be able to contact with questions on upcoming events.)
+Find up to date workshops to sign up for.
 
 
 ## Design
@@ -84,6 +82,7 @@ The color palette was created using [Colorminds](http://colormind.io/)
 ### Typography
 
 [Google Fonts](https://fonts.google.com/) was used. 
+
 I used a combination of Roboto (300) and Roboto slab for the headings. I like the mix of serif and sans-serif. 
 
 ### Imagery
@@ -92,21 +91,22 @@ Most of the images are my own (things that I've made with fabric scraps) except 
 
 ### Wireframes
 
-I didn´t use any Wireframes this time because it wasn´t enough time to learn another new thing at this point. Instead I went old school and used pen and papper. 
+I didn´t use any Wireframes because there wasn´t enough time to learn another new thing at this point. Instead I went old school and used pen and papper. 
 
 ## Features
 
-Zero waste design is a website with three pages.
+Zero waste design is a website with four pages. 
+Three of the pages are accessible from the navigation menu.
 - Home page, with information about zero waste design and the material that is used.
 - Portfolio, with images of items that was created with fabric scraps.
 - Workshops, with dates and sign up form. 
+The fourth page is a thank you page thats is shown when a user submits the form on the workshop page.
 
 ### General features on each page
 
 All pages have
 - A responsive navigation bar and the logo at the top. 
 - A footer which contains social media icon links.
-
 
 ### Future Implementations
 
@@ -175,45 +175,45 @@ To clone the Zero waste design repository:
 
 ## Testing
 
-Chrome developer tools was used to pinpoint and troubleshoot any issues while building the website. 
+Chrome developer tools was used to find any issues while building the website. 
 
 The W3C validators for HTML and CSS was used when the website was finsihed. No errors on CSS and a few errors on HTML-pages but this was solved. See details below on Solved bugs. 
 
 ### Solved bugs
 
-1. Menu elements in the wrong order. 
+1. Menu navigation elements in the wrong order. 
  Solution: Serched W3 schools for an solution for this and found that I should use [flex-end](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_justify-content_flex-end
 )
 
 2. Responsive issues images. The hero header and one of the images in the about materials sections was cropped on smaller screens. 
-Solution: The third image on the page had a width that was bigger then tha screen and affected the other images. To change that width from px to % on smakker screen changed that. Got help from Code institute tutor team on this one. 
+Solution: The third image on the page had a width that was bigger then tha screen and affected the other images. To change that width from px to % on smaller screen changed that. Got help from Code institute tutor team on this one. 
 
-3. Responsive issues navigation bar. On smaller screens the nav bar got hidden by the hero image. 
+3. Responsive issues navigation bar. On smaller screens the nav bar "got hidden" by the hero image. 
 Solution: Removed float:left on the logo. Got help from Code institute tutor team on this one. 
 
 4. W3C Validator pointed out one thing on index.html - "section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
 Solution: Changed section to div because didn't want a heading. Enough info in the hero image text just above this section. 
 
-5. W3C validator pointed out one thing on portfolio.html - Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+5. W3C validator pointed out one thing on portfolio.html - "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
 Solution: Changed section to div because didn't want a heading.
 
 6. W3C validator pointed out four things on workshops.html - 
-- Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+- "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
 Solution: Changed section to div because didn't want a heading.
 
-- Bad value for attribute action on element form: Must be non-empty.
+- "Bad value for attribute action on element form: Must be non-empty."
 Solution: Was empty because I hadn't yet created the thank you-page for the form, but was added after writing this. 
 
-- Saw an end tag after body had been closed.
+- "Saw an end tag after body had been closed."
 Solution: Removed the extra </body>
 
-- Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+- "Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools)."
 Solution: Changed heading to h2 which was what I wanted there. 
-
-Apart from these issues there have been a few minor issues, but mostly just testing my way through because using HTML and CSS are all new to me. So there's been a few changes, mostly on the homepage and trying to figure out the best way to display the images and text. 
 
 7. After adding a thankyou-page to the form it didn't show when submitting the form. 
 Solution: After looking at my code and my notes on forms from Code institute I changed method:post to method:get and the thankyou page now works when filling out the form. 
+
+Apart from these issues there have been a few minor issues, but mostly just testing my way through because using HTML and CSS are all new to me. So there's been a few changes, mostly on the homepage and trying to figure out the best way to display the images and text. 
 
 
 ## Credits
@@ -235,6 +235,7 @@ Images are mostly my own but the one in the workshop page is from pexels.com.
 ###  Acknowledgments
 
 A special thanks to peolpe that helped me complete my first portfolio project!
-- Martina , my Code institute mentor
-- Kera , for all the information about the Readme-file.
+- Martina Terlevic, my Code institute mentor.
+- Paul Thomas O'Riordan for helping out with questions in our Slack class channel.
+- Kera Cudmore, for all the information about the Readme-file.
 - Oisin, at the Code institute tutor team for helping me out with responsive issues. 
