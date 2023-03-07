@@ -1,6 +1,6 @@
 # ZERO WASTE DESIGN
 
-The Zero waste design website is a responsiv website with information about creativity with fabric scraps and workshops. 
+The Zero waste design website is a responsive website with information about creativity with fabric scraps and workshops. 
 
 ![responsive webiste](assets/images/readme-images/zero-waste-design-responsive.png)
 
@@ -88,7 +88,7 @@ I used a combination of Roboto (300) and Roboto slab for the headings. I like th
 
 ### Imagery
 
-Most of the images are my own (on things that I've made with fabric scraps) except the image on the workshop page which is from [Pexels](https://www.pexels.com/)
+Most of the images are my own (things that I've made with fabric scraps) except the image on the workshop page which is from [Pexels](https://www.pexels.com/)
 
 ### Wireframes
 
@@ -110,8 +110,7 @@ All pages have
 
 ### Future Implementations
 
-- A page about the person running the Zero waste design website
-- A contact page
+- A page about the person running the Zero waste design website and contact info.
 - A fully functional sign up form. 
 
 ### Accessibility
@@ -138,6 +137,7 @@ For the accessibility this was used:
 - Google Dev Tools 
 - Gimp 
 - Am I Responsive? 
+- Font awesome
 
 
 ## Deployment & Local Development
@@ -175,28 +175,47 @@ To clone the Zero waste design repository:
 
 ## Testing
 
-Chrome developer tools was used while building to pinpoint and troubleshoot any issues while building the website. 
+Chrome developer tools was used to pinpoint and troubleshoot any issues while building the website. 
 
-The W3C validators for HTML and CSS  was used.
+The W3C validators for HTML and CSS was used when the website was finsihed. No errors on CSS and one error on HTML but this was solved. See details below on Solved bugs. 
+
+### Solved bugs
+
+1. Menu elements in the wrong order. 
+ Solution: Serched W3 schools for an solution for this and found that I should use [flex-end](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_justify-content_flex-end
+)
+
+2. Responsive issues images. The hero header and one of the images in the about materials sections was cropped on smaller screens. 
+Solution: The third image on the page had a width that was bigger then tha screen and affected the other images. To change that width from px to % on smakker screen changed that. Got help from Code institute tutor team on this one. 
+
+3. Responsive issues navigation bar. On smaller screens the nav bar got hidden by the hero image. 
+Solution: Removed float:left on the logo. Got help from Code institute tutor team on this one. 
+
+4. The first test in the W3C Validator pointed out one thing - "section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
+Solution: Changed section to div because didn't want a heading. Enough info in the hero image text just above this section. 
+
+Apart from these issues there have been a few minor issues, but mostly just testing my way through because using HTML and CSS are all new to me. So there's been a few changes, mostly on the homepage and trying to figure out the best way to display the images and text. 
+
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
-
 ### Code Used
 
-Some inspiration and code came from Love Running project. 
+- Some inspiration and code came from Code institutes "Love Running"-project. 
+
+- The wonderful readme template came from [Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md)
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Written by Anne-Lie Smith.
 
 ###  Media
 
-Images are mostly my own but one is from pexels.com.
+Images are mostly my own but the one in the workshop page is from pexels.com.
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+A special thanks to peolpe that helped me complete my first portfolio project!
+- Martina , my Code institute mentor
+- Kera , for all the information about the Readme-file.
+- Oisin, at the Code institute tutor team for helping me out with responsive issues. 
