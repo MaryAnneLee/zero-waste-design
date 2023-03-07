@@ -212,6 +212,9 @@ Solution: Changed heading to h2 which was what I wanted there.
 
 Apart from these issues there have been a few minor issues, but mostly just testing my way through because using HTML and CSS are all new to me. So there's been a few changes, mostly on the homepage and trying to figure out the best way to display the images and text. 
 
+7. After adding a thankyou-page to the form it didn't show when submitting the form. 
+Solution: After looking at my code and my notes on forms from Code institute I changed method:post to method:get and the thankyou page now works when filling out the form. 
+
 
 ## Credits
 
