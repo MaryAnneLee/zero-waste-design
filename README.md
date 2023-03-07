@@ -177,7 +177,7 @@ To clone the Zero waste design repository:
 
 Chrome developer tools was used to pinpoint and troubleshoot any issues while building the website. 
 
-The W3C validators for HTML and CSS was used when the website was finsihed. No errors on CSS and one error on HTML but this was solved. See details below on Solved bugs. 
+The W3C validators for HTML and CSS was used when the website was finsihed. No errors on CSS and a few errors on HTML-pages but this was solved. See details below on Solved bugs. 
 
 ### Solved bugs
 
@@ -191,8 +191,24 @@ Solution: The third image on the page had a width that was bigger then tha scree
 3. Responsive issues navigation bar. On smaller screens the nav bar got hidden by the hero image. 
 Solution: Removed float:left on the logo. Got help from Code institute tutor team on this one. 
 
-4. The first test in the W3C Validator pointed out one thing - "section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
+4. W3C Validator pointed out one thing on index.html - "section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
 Solution: Changed section to div because didn't want a heading. Enough info in the hero image text just above this section. 
+
+5. W3C validator pointed out one thing on portfolio.html - Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+Solution: Changed section to div because didn't want a heading.
+
+6. W3C validator pointed out four things on workshops.html - 
+- Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+Solution: Changed section to div because didn't want a heading.
+
+- Bad value for attribute action on element form: Must be non-empty.
+Solution: Was empty because I hadn't yet created the thank you-page for the form, but was added after writing this. 
+
+- Saw an end tag after body had been closed.
+Solution: Removed the extra </body>
+
+- Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+Solution: Changed heading to h2 which was what I wanted there. 
 
 Apart from these issues there have been a few minor issues, but mostly just testing my way through because using HTML and CSS are all new to me. So there's been a few changes, mostly on the homepage and trying to figure out the best way to display the images and text. 
 
