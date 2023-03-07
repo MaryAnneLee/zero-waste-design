@@ -69,7 +69,7 @@ Find up to date workshops to sign up for.
 
 ## Design
 
-This is my first project and it was made with a lack of time. The design has been influenced by the “Love running”-project at Code Institute. I wanted to create a clean looking website with colors that didn't stand out and blend in well with the inspirational images. My aim was also a solid ground to work with in upcoming changes and improvements. Mostly improvements in the design because it's a bit simple now.
+This is my first project and it was made with a lack of time. The design has been influenced by the “Love running”-project at Code Institute. I wanted to create a clean looking website with colors that didn't stand out and blend in well with the inspirational images. My aim was also a solid foundation to work with in upcoming changes and improvements. Mostly improvements in the design because it's a bit simple now.
 
 ### Colour Scheme
 
@@ -191,7 +191,7 @@ Solution: The third image on the page had a width that was bigger then tha scree
 Solution: Removed float:left on the logo. Got help from Code institute tutor team on this one. 
 
 4. W3C Validator pointed out one thing on index.html - "section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
-Solution: Changed section to div because didn't want a heading. Enough info in the hero image text just above this section. 
+Solution: Didn¨t like the layout I first created so changed it and also added a heading. 
 
 5. W3C validator pointed out one thing on portfolio.html - "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
 Solution: Changed section to div because didn't want a heading.
@@ -212,7 +212,7 @@ Solution: Changed heading to h2 which was what I wanted there.
 7. After adding a thankyou-page to the form it didn't show when submitting the form. 
 Solution: After looking at my code and my notes on forms from Code institute I changed method:post to method:get and the thankyou page now works when filling out the form. 
 
-Apart from these issues there have been a few minor issues, but mostly just testing my way through because using HTML and CSS are all new to me. So there's been a few changes, mostly on the homepage and trying to figure out the best way to display the images and text. 
+Apart from these issues there have been a few minor issues, but mostly just testing my way through because using HTML and CSS are all new to me. So there's been a few changes, mostly on the homepage and trying to figure out the best way and style to display the images and text. 
 
 
 ## Credits
