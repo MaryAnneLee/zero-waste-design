@@ -92,14 +92,46 @@ h2 {
 
 /* main section*/
 
-#material-info-image {
-    height: 500px;
+#material-info-text {
+    height: 450px;
     margin-top: 60px;
+}
+
+#material-info-heading {
+    text-align: center;
+    font-size: 150%;
+    padding: 40px;
+}
+
+#left-text {
+    width: 45%;
+    height: 350px;
+    float: left;
+    margin-left: 80px;
+}
+
+#right-text {
+    width: 45%;
+    height: 350px;
+    float: right;
+}
+
+#linen-left-text {
+    width: 50%;
+}
+
+#wool-right-text {
+    width: 50%;
+}
+
+#material-info-image {
+    height: 600px;
+    margin-top: 20px;
 }
 
 .image-container {
     height: 450px;
-    margin: 0 100px;
+    margin: 0 80px;
 }
 
 #left-image {
@@ -123,32 +155,6 @@ h2 {
 #wool-right-image {
     background: url(../images/zero-waste-design-wool-cushion-cover450.jpg) no-repeat;
     height: 100%
-}
-
-#material-info-text {
-    height: 450px;
-    margin-top: 60px;
-}
-
-#left-text {
-    width: 45%;
-    height: 450px;
-    float: left;
-    margin-left: 100px;
-}
-
-#right-text {
-    width: 45%;
-    height: 450px;
-    float: right;
-}
-
-#linen-left-text {
-    width: 50%;
-}
-
-#wool-right-text {
-    width: 50%;
 }
 
 /* Workshop button
@@ -300,7 +306,7 @@ footer {
 @media screen and (max-width: 1300px) {
     #material-info-image {
         width: 65%;
-        height: 1000px;
+        height: 1200px;
         margin: 0 auto;
     }
 
@@ -310,8 +316,7 @@ footer {
         margin: 0 auto;
     }
 
-    #left-text,
-    #right-text {
+    #left-text, #right-text {
         width: 100%;
         float: left;
         height: 300px;
@@ -347,17 +352,15 @@ footer {
 
     #material-info-image {
         width: 90%;
-        height: 1000px;
+        height: 1100px;
         margin: 0 auto;
-
     }
 
     #material-info-text {
         width: 90%;
-        height: 600px;
+        height: 700px;
         margin: 0 auto;
     }
-
 
     .signup-form {
         position: relative;
@@ -366,7 +369,7 @@ footer {
     }
 
     footer {
-        height: 100px;
+        height: 200px;
     }
 
 }
@@ -392,14 +395,18 @@ footer {
 
     #material-info-image {
         width: 90%;
-        height: 1000px;
+        height: 1100px;
         margin: 0 auto;
     }
 
     #material-info-text {
         width: 90%;
-        height: 600px;
+        height: 800px;
         margin: 0 auto;
+    }
+
+    #material-info-heading {
+        font-size: 100%;
     }
 
     #left-text {
