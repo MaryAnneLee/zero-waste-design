@@ -212,6 +212,14 @@ Solution: Changed heading to h2 which was what I wanted there.
 7. After adding a thankyou-page to the form it didn't show when submitting the form. 
 Solution: After looking at my code and my notes on forms from Code institute I changed method:post to method:get and the thankyou page now works when filling out the form. 
 
+8. Got feedback on slach from John Dickson on my peer-code-review
+- There is white space below the footer once the transition to media screen max width 760px happens.
+Solution: I changed the width on the section above and also changed the media queries a bit. 
+- The sign up form is slightly off centre for the different media screen sizes.
+Solution: I used flex and justify:center on the section.
+- Would you consider uploading your hand drawn wireframes to the README?
+Solution: Uploaded my hand drawn wireframes altough they are difficult to read for anyone else. 
+
 Apart from these issues there have been a few minor issues, but mostly just testing my way through because using HTML and CSS are all new to me. So there's been a few changes, mostly on the homepage and trying to figure out the best way and style to display the images and text. 
 
 
