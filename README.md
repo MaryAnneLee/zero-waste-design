@@ -225,17 +225,17 @@ To clone the Zero waste design repository:
 ### Solved bugs
 
 1. Menu navigation elements in the wrong order. 
- Solution: Serched W3 schools for an solution for this and found that I should use [flex-end](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_justify-content_flex-end
+ Solution: Searched W3 schools for an solution for this and found that I should use [flex-end](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_justify-content_flex-end
 )
 
 2. Responsive issues images. The hero header and one of the images in the about materials sections was cropped on smaller screens. 
-Solution: The third image on the page had a width that was bigger then tha screen and affected the other images. To change that width from px to % on smaller screen changed that. Got help from Code institute tutor team on this one. 
+Solution: The third image on the page had a width that was bigger then the screen and affected the other images. To change that width from px to % on smaller screen changed that. Got help from Code institute tutor team on this one. 
 
 3. Responsive issues navigation bar. On smaller screens the nav bar "got hidden" by the hero image. 
 Solution: Removed float:left on the logo. Got help from Code institute tutor team on this one. 
 
 4. W3C Validator pointed out one thing on index.html - "section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
-Solution: Didn¨t like the layout I first created so changed it and also added a heading. 
+Solution: Didn't like the layout I first created so changed it and also added a heading. 
 
 5. W3C validator pointed out one thing on portfolio.html - "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
 Solution: Changed section to div because didn't want a heading.
@@ -271,7 +271,7 @@ Apart from these issues there have been a few minor issues, but mostly just test
 
 ### Code Used
 
-- Some inspiration and code came from Code institutes "Love Running"-project. 
+- Inspiration and code came from Code institutes "Love Running"-project. Followed the workflow on Love running while writing my code and changed my code where needed. 
 
 - The wonderful readme template came from [Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md)
 
@@ -290,4 +290,4 @@ A special thanks to peolpe that helped me complete my first portfolio project!
 - Paul Thomas O'Riordan for helping out with questions in our Slack class channel.
 - Kera Cudmore, for all the information about the Readme-file.
 - Oisin, at the Code institute tutor team for helping me out with responsive issues. 
-- John Dickson, for viewing my website and gave me feedback on my peer-code-review on Slack
+- John Dickson, for viewing my website and gave me feedback on my peer-code-review on Slack.
