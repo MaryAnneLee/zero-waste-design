@@ -105,6 +105,42 @@ Three of the pages are accessible from the navigation menu.
 - Workshops, with dates and sign up form. 
 The fourth page is a thank you page thats is shown when a user submits the form on the workshop page.
 
+### Header and navigation 
+![Header and hero image](assets/images/readme-images/zero-waste-design-header-hero.jpg)
+
+The header consists of a logo and the navigation menu. Easy for the user to see what pages are on the website and to alter between them.
+The hero header contains an image of products made of fabric scraps and some text what this website is about.
+
+### Fabric information
+![Fabric information](assets/images/readme-images/zero-waste-design-material-info.jpg)
+
+Information about the fabrics that is used in the designs and in the workshops. Good information for the user to know. 
+
+### Portfolio 
+![Portfolio](assets/images/readme-images/zero-waste-design-portfolio.jpg)
+
+Images showing designs made of fabric scraps. Inspirational for the user to see what you can create with fabric scraps.
+
+### Workshops
+![Workshops](assets/images/readme-images/zero-waste-design-workshop.jpg)
+
+The first section of the workshop page shows the dates and place for the workshops that the users can choose from. It also consists an image at the top. 
+
+![Workshop form](assets/images/readme-images/zero-waste-design-form.jpg)
+
+The second section of the workshop page contains a sign up form for the workshops. The user can fill in which date they want to attend the workshop and have to fill in name and email address.
+
+### Thank you page
+![Form thank you page](assets/images/readme-images/zero-waste-design-thankyou-page.jpg)
+
+The thank you page shows a message to user that submit the sign up form. The user get information that message has been recieved and that they will get more information about the workshops. 
+
+### Footer
+![Footer](assets/images/readme-images/zero-waste-design-footer.jpg)
+
+The footer contains four social media icons and links. It's for the user to be able to interact with Zero waste design on social media. 
+
+
 ### General features on each page
 
 All pages have
