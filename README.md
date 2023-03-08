@@ -92,6 +92,10 @@ Most of the images are my own (things that I've made with fabric scraps) except 
 
 I didn´t use any Wireframes because there wasn´t enough time to learn another new thing at this point. Instead I went old school and used pen and papper. 
 
+![Wireframe homepage](assets/images/readme-images/wireframe-homepage-zero-waste-design.jpg)
+![Wireframe portfolio](assets/images/readme-images/wirefram-portfolio-zero-waste-design.jpg)
+![Wireframe workshops](assets/images/readme-images/wireframe-workshops-zero-waste-design.jpg)
+
 ## Features
 
 Zero waste design is a website with four pages. 
