@@ -174,9 +174,13 @@ To clone the Zero waste design repository:
 
 ## Testing
 
-Chrome developer tools was used to find any issues while building the website. 
+- Chrome developer tools was used to find any issues while building the website. 
 
-The W3C validators for HTML and CSS was used when the website was finsihed. No errors on CSS and a few errors on HTML-pages but this was solved. See details below on Solved bugs. 
+- The W3C validators for HTML and CSS was used when the website was finsihed. No errors on CSS and a few errors on HTML-pages but this was solved. See details below on Solved bugs. 
+
+- Lighthouse testing
+
+![Lighthouse testing](assets/images/readme-images/lighthouse-testing-zero-waste-design.png)
 
 ### Solved bugs
 
