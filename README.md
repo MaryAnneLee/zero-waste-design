@@ -246,3 +246,4 @@ A special thanks to peolpe that helped me complete my first portfolio project!
 - Paul Thomas O'Riordan for helping out with questions in our Slack class channel.
 - Kera Cudmore, for all the information about the Readme-file.
 - Oisin, at the Code institute tutor team for helping me out with responsive issues. 
+- John Dickson, for viewing my website and gave me feedback on my peer-code-review on Slack
